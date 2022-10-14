@@ -1,0 +1,119 @@
+* {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+	background-color: #ffffcc;
+}
+
+
+.title {
+	font-size: 2em;
+	text-align: center;
+}
+
+/*
+.image {
+	width: 100vw;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	border-radius: 11em;
+}*/
+
+
+.error {
+	font-size: 9em;
+	text-align: center;
+	
+	margin-top: .6em;
+	margin-bottom: .6em ;
+	font-family: fantasy;
+	letter-spacing: .2em;
+	color: #000055;
+	animation: colordancing 4s infinite;
+}
+@keyframes colordancing {
+	0%{
+		 color: #000055;
+	}
+	25%{
+		 color: #004477;
+	}
+	50%{
+		color: #0088aa;
+	}
+	75%{
+		color: #004477;
+	}
+	100%{
+		color: #000055;
+	}
+}
+
+.notice {
+	font-size: 2.7em;
+	text-align: center;
+}
+
+
+.prf {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+.return {
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+	margin: 0 3em;
+	border: solid 2px #000055;
+	border-radius: 3px;
+	background-color: #000099;
+	color: #ffffff;
+	letter-spacing: .2em;
+	font-weight: 800;
+	padding: 5px;
+	transition: all .5s;
+}
+
+.return:hover {
+	background-color: #0055ff;
+}
+
+
+@media (min-width: 800px){
+	.return {
+		display: flex;
+		margin: 0 35%;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
